@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kakisashi BBS - 言葉を綴る掲示板</title>
+    <meta name="description" content="誰でも自由に投稿できる、美しいデザインの掲示板サイト。画像や動画もアップロード可能です。">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="app">
+        <header class="header">
+            <h1>TSPC<br><span style="font-size: 0.25em; letter-spacing: 0.2em; display: block; margin-top: 10px; font-weight: 400;">Thema Soccer Practice Community</span></h1>
+            <p class="header-description">TSPCはテーマサッカーを実践するための練習ノウハウを共有するコミュニティ</p>
+            <a href="https://ybti.github.io/tactics.board/" target="_blank" class="header-tool-link">練習ボード</a>
+        </header>
+
+        <main id="post-container" class="post-grid">
+            <!-- 投稿カードがここに挿入されます -->
+        </main>
+
+        <div id="fab" class="fab" title="新規投稿">
+            <span>+</span>
+        </div>
+    </div>
+
+    <!-- 投稿モーダル -->
+    <div id="modal-overlay" class="modal-overlay">
+        <div class="modal-content">
+            <span id="modal-close" class="modal-close">&times;</span>
+            <div id="modal-body">
+                <!-- 投稿フォームまたは投稿詳細がここに挿入されます -->
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="./main.js"></script>
+</body>
+</html>

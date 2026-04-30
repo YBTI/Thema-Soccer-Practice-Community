@@ -2,7 +2,7 @@
   "name": "bbs-app",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,8 +11,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
+    "firebase": "^12.12.1",
     "vite": "^8.0.10"
   }
 }
